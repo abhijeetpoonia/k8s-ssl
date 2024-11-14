@@ -24,4 +24,4 @@ verify installation kubectl get pods -n cert-manager
 
 Create the ClusterIssuer YAML file (e.g., clusterissuer.yaml):
 Create the Certificate YAML file (e.g., certificate.yaml):
-Update Your Ingress Resource to Use TLS
+Update Your Ingress Resource to Use TLS with cert-manager.io/cluster-issuer:
