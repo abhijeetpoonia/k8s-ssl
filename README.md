@@ -1,4 +1,6 @@
 **Kubernetes Deployment and SSL Setup - Notes**
+
+
 **Step 1: Create a Deployment File**
 
 Write a deployment.yaml file for your application.
