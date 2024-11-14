@@ -1,4 +1,4 @@
-**Kubernetes Deployment and SSL Setup - Notes**
+**Kubernetes Deployment and SSL Setup**
 
 
 **Step 1: Create a Deployment File**
