@@ -22,4 +22,4 @@ spec:
   tls:
   - hosts:
     - abhi.parveen232=3.tech
-    secretName: hello-world-tls-secret
+    secretName: hello-world-tls-secrets
