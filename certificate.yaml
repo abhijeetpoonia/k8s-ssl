@@ -22,4 +22,3 @@ spec:
   - hosts:
     - abhi.parveen232.tech
     secretName: hello-world-tls-secret
-
