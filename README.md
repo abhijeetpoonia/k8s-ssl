@@ -21,6 +21,6 @@ kubectl wait --for=condition=ready pod -l app.kubernetes.io/name=cainjector -n c
 # 3. Verify cert-manager installation
 kubectl get pods -n cert-manager
 
-**Step 6: Verify SSL Configuration**
+**Step 2: Verify SSL Configuration**
 
  apply both cluster-issuer and ingress
