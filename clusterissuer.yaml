@@ -1,13 +1,14 @@
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
-  name: letsencrypt-staging
+  name: letsencrypt-prod
 spec:
   acme:
-    email: your-real-email@domain.com  # Replace with your email
-    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    # Change this to production server
+    server: https://acme-v02.api.letsencrypt.org/directory
+    email: ashish@theropay.io
     privateKeySecretRef:
-      name: example-issuer-account-key
+      name: letsencrypt-prod
     solvers:
     - http01:
         ingress:
